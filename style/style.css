@@ -197,8 +197,62 @@ line-height: 28px;
 .col textarea{
     padding-right: 295px;
     border: none;
+   width: 229px;
     
 }
 footer{
     background-color: #FFF8F3;
+}
+
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .bnr-intro{
+        font-size: medium;
+    }
+    .bnr-nam{
+        font-size: larger;
+    }
+    .btn-primary{
+        padding: 5px;
+    }
+    nav{
+        margin: 5px;
+        flex-direction: column;
+    }
+    /* .nav-option ul{
+        flex-direction: column;
+       
+    } */
+    .about-section{
+        padding:5px ;
+    }
+    .info-section{
+        flex-direction: column;
+    }
+    .skills-aria{
+        flex-direction: column;
+    }
+    .summery-section{
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    .footer-section{
+        flex-direction: column;
+    }
+    .footer-section h3, p{
+        text-align: center;
+    }
+    .col{text-align: center;}
+  .input-col input, #tex{
+   padding: 5px;
+   padding-right: 5px;
+   width: 250px;
+  }
 }
